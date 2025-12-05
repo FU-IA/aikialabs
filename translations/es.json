@@ -1,0 +1,114 @@
+{
+  "common": {
+    "home": "Inicio",
+    "courses": "Cursos",
+    "caseStudies": "Casos de Estudio",
+    "blog": "Blog",
+    "about": "Acerca de",
+    "learnMore": "Saber Más",
+    "viewAll": "Ver Todo",
+    "send": "Enviar",
+    "sending": "Enviando...",
+    "you": "Tú",
+    "frank": "Frank",
+    "writeMessage": "Escribe tu mensaje...",
+    "writeMessagePrompt": "Escribe un mensaje y envíalo para hablar con nuestro agente de IA.",
+    "somethingWentWrong": "Algo salió mal"
+  },
+  "header": {
+    "title": "Aikia Labs"
+  },
+  "hero": {
+    "title": "Aprende la Implementación de IA del Educador que Realmente la Usa en Múltiples Negocios",
+    "description": "Soy <strong>Frank Sellingsloh</strong>, y he estado implementando IA en mis empresas de educación, hostelería y servicios profesionales desde el día 5 de ChatGPT. Ahora enseño las estrategias exactas que transformaron mis operaciones—y lo hago de la manera en que he estado enseñando durante más de 20 años: a través de cursos prácticos y hands-on.",
+    "credentials": "25+ años de experiencia en transformación digital • 3 empresas, 7+ marcas • Cientos de implementaciones exitosas de IA",
+    "viewCourses": "Ver Nuestros Cursos",
+    "seeCaseStudies": "Ver Casos de Estudio Reales"
+  },
+  "courses": {
+    "title": "Dos Programas Prácticos de IA",
+    "forProfessionals": {
+      "title": "Para Profesionales Europeos",
+      "description": "5 días intensivos en Tenerife • Flujos de trabajo con voz • Automatización empresarial • Implementaciones compatibles con GDPR",
+      "price": "€790",
+      "eligibility": "Elegible para Bildungsurlaub"
+    },
+    "forEducators": {
+      "title": "Para Educadores",
+      "description": "5 días de desarrollo profesional • Mejora de la enseñanza • Automatización administrativa • Participación estudiantil",
+      "price": "€490",
+      "eligibility": "Elegible para financiación Erasmus+"
+    }
+  },
+  "caseStudies": {
+    "title": "IMPLEMENTACIONES REALES",
+    "subtitle": "Proyectos de IA de los que aprenderás",
+    "description": "Estos no son casos de estudio de otras empresas—son implementaciones activas de IA en mis negocios.",
+    "viewAll": "Ver Todos los Casos de Estudio",
+    "education": {
+      "title": "Educación",
+      "description": "Optimización de colocación de estudiantes en 24 niveles de competencia con 95% de satisfacción."
+    },
+    "hospitality": {
+      "title": "Hostelería",
+      "description": "Gestión de inventario con IA que redujo el desperdicio de alimentos en un 60%."
+    },
+    "operations": {
+      "title": "Operaciones",
+      "description": "Sistema de reservas que eliminó el 80% de los conflictos de programación."
+    },
+    "careerServices": {
+      "title": "Servicios Profesionales",
+      "description": "Automatización multilingüe que maneja consultas de clientes en tres idiomas."
+    }
+  },
+  "whyAikia": {
+    "title": "POR QUÉ AIKIA LABS",
+    "subtitle": "Aprende de la experiencia real",
+    "authentic": {
+      "title": "Implementación Auténtica",
+      "description": "Cada técnica proviene de operaciones comerciales reales. Apuesto el éxito de mi empresa a que estos sistemas de IA funcionen de manera efectiva."
+    },
+    "european": {
+      "title": "Enfoque Europeo",
+      "description": "Todas las implementaciones son compatibles con GDPR y están diseñadas para entornos comerciales y contextos culturales europeos."
+    },
+    "proven": {
+      "title": "Enseñanza Probada",
+      "description": "Más de 20 años entregando desarrollo profesional como coordinador Erasmus+. Aplicación práctica combinada con pensamiento estratégico."
+    },
+    "team": {
+      "title": "Colaboración en Equipo",
+      "description": "Yo genero estrategias, mi equipo capacitado maneja el desarrollo. Aprendes tanto el pensamiento creativo como la ejecución práctica."
+    }
+  },
+  "about": {
+    "title": "Acerca de Frank",
+    "subtitle": "Tu Guía de IA",
+    "description": "Soy <strong>Frank Sellingsloh</strong>, obsesionado con la IA desde el día 5 del lanzamiento de ChatGPT. Mi credencial no es la adopción temprana—es la implementación exitosa en múltiples negocios reales.",
+    "background": "Antecedentes:",
+    "backgroundText": "25+ años de transformación digital • Coordinador Erasmus+ desde 2004 • CEO/Co-fundador de 6+ empresas",
+    "approach": "Enfoque:",
+    "approachText": "Yo genero estrategias y conceptos de IA, mi equipo maneja el desarrollo. Aprendes tanto el pensamiento creativo como la ejecución práctica.",
+    "promise": "Promesa:",
+    "promiseText": "Cada estrategia que enseño ha sido probada en mis propios negocios.",
+    "readFullStory": "Lee Mi Historia Completa →"
+  },
+  "chat": {
+    "title": "Hazle cualquier pregunta a Frank-AI sobre esta página"
+  },
+  "footer": {
+    "getInTouch": "Ponte en contacto",
+    "email": "Correo electrónico:",
+    "location": "Ubicación:",
+    "locationValue": "Tenerife, España",
+    "links": "Enlaces",
+    "terms": "Términos y Condiciones",
+    "privacy": "Política de Privacidad",
+    "follow": "Seguir",
+    "linkedin": "LinkedIn",
+    "twitter": "X (Twitter)",
+    "copyright": "© 2025 Aikia Labs. Todos los derechos reservados."
+  }
+}
+

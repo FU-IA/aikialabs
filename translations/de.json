@@ -1,0 +1,114 @@
+{
+  "common": {
+    "home": "Startseite",
+    "courses": "Kurse",
+    "caseStudies": "Fallstudien",
+    "blog": "Blog",
+    "about": "Über uns",
+    "learnMore": "Mehr erfahren",
+    "viewAll": "Alle anzeigen",
+    "send": "Senden",
+    "sending": "Wird gesendet...",
+    "you": "Du",
+    "frank": "Frank",
+    "writeMessage": "Schreibe deine Nachricht...",
+    "writeMessagePrompt": "Schreibe eine Nachricht und sende sie, um mit unserem KI-Agenten zu sprechen.",
+    "somethingWentWrong": "Etwas ist schief gelaufen"
+  },
+  "header": {
+    "title": "Aikia Labs"
+  },
+  "hero": {
+    "title": "Lerne KI-Implementierung vom Pädagogen, der sie tatsächlich in mehreren Unternehmen einsetzt",
+    "description": "Ich bin <strong>Frank Sellingsloh</strong> und implementiere KI seit Tag 5 von ChatGPT in meinen Unternehmen für Bildung, Gastronomie und Karriereservices. Jetzt unterrichte ich genau die Strategien, die meine Betriebe transformiert haben—und ich mache es so, wie ich es seit über 20 Jahren unterrichte: durch praktische, hands-on Kurse.",
+    "credentials": "25+ Jahre Erfahrung in der digitalen Transformation • 3 Unternehmen, 7+ Marken • Hunderte erfolgreicher KI-Implementierungen",
+    "viewCourses": "Unsere Kurse ansehen",
+    "seeCaseStudies": "Echte Fallstudien ansehen"
+  },
+  "courses": {
+    "title": "Zwei praktische KI-Programme",
+    "forProfessionals": {
+      "title": "Für europäische Fachkräfte",
+      "description": "5-tägige Intensivkurse auf Teneriffa • Sprachgesteuerte Workflows • Geschäftsautomatisierung • DSGVO-konforme Implementierungen",
+      "price": "€790",
+      "eligibility": "Bildungsurlaub berechtigt"
+    },
+    "forEducators": {
+      "title": "Für Pädagogen",
+      "description": "5-tägige berufliche Weiterbildung • Unterrichtsverbesserung • Verwaltungsautomatisierung • Schülerengagement",
+      "price": "€490",
+      "eligibility": "Erasmus+ Finanzierung berechtigt"
+    }
+  },
+  "caseStudies": {
+    "title": "ECHTE IMPLEMENTIERUNGEN",
+    "subtitle": "KI-Projekte, von denen Sie lernen werden",
+    "description": "Das sind keine Fallstudien von anderen Unternehmen—das sind aktive KI-Implementierungen in meinen Unternehmen.",
+    "viewAll": "Alle Fallstudien ansehen",
+    "education": {
+      "title": "Bildung",
+      "description": "Optimierung der Schülerplatzierung über 24 Kompetenzstufen mit 95% Zufriedenheit."
+    },
+    "hospitality": {
+      "title": "Gastronomie",
+      "description": "KI-Inventarverwaltung, die Lebensmittelverschwendung um 60% reduzierte."
+    },
+    "operations": {
+      "title": "Betrieb",
+      "description": "Buchungssystem, das 80% der Terminkonflikte eliminierte."
+    },
+    "careerServices": {
+      "title": "Karriereservices",
+      "description": "Mehrsprachige Automatisierung, die Kundenanfragen in drei Sprachen bearbeitet."
+    }
+  },
+  "whyAikia": {
+    "title": "WARUM AIKIA LABS",
+    "subtitle": "Lernen Sie aus echter Erfahrung",
+    "authentic": {
+      "title": "Authentische Implementierung",
+      "description": "Jede Technik stammt aus tatsächlichen Geschäftsbetrieben. Ich setze den Erfolg meines Unternehmens darauf, dass diese KI-Systeme effektiv funktionieren."
+    },
+    "european": {
+      "title": "Europäischer Fokus",
+      "description": "Alle Implementierungen sind DSGVO-konform und für europäische Geschäftsumgebungen und kulturelle Kontexte konzipiert."
+    },
+    "proven": {
+      "title": "Bewährte Lehrmethode",
+      "description": "Über 20 Jahre berufliche Weiterbildung als Erasmus+ Koordinator. Praktische Anwendung kombiniert mit strategischem Denken."
+    },
+    "team": {
+      "title": "Teamzusammenarbeit",
+      "description": "Ich entwickle Strategien, mein qualifiziertes Team übernimmt die Entwicklung. Sie lernen sowohl kreatives Denken als auch praktische Umsetzung."
+    }
+  },
+  "about": {
+    "title": "Über Frank",
+    "subtitle": "Ihr KI-Leitfaden",
+    "description": "Ich bin <strong>Frank Sellingsloh</strong>, besessen von KI seit Tag 5 der Veröffentlichung von ChatGPT. Meine Qualifikation ist nicht die frühe Übernahme—es ist die erfolgreiche Implementierung in mehreren echten Unternehmen.",
+    "background": "Hintergrund:",
+    "backgroundText": "25+ Jahre digitale Transformation • Erasmus+ Koordinator seit 2004 • CEO/Mitbegründer von 6+ Unternehmen",
+    "approach": "Ansatz:",
+    "approachText": "Ich entwickle KI-Strategien und Konzepte, mein Team übernimmt die Entwicklung. Sie lernen sowohl kreatives Denken als auch praktische Umsetzung.",
+    "promise": "Versprechen:",
+    "promiseText": "Jede Strategie, die ich unterrichte, wurde in meinen eigenen Unternehmen getestet.",
+    "readFullStory": "Meine vollständige Geschichte lesen →"
+  },
+  "chat": {
+    "title": "Stellen Sie Frank-AI Fragen zu dieser Seite"
+  },
+  "footer": {
+    "getInTouch": "Kontakt aufnehmen",
+    "email": "E-Mail:",
+    "location": "Standort:",
+    "locationValue": "Teneriffa, Spanien",
+    "links": "Links",
+    "terms": "Allgemeine Geschäftsbedingungen",
+    "privacy": "Datenschutzerklärung",
+    "follow": "Folgen",
+    "linkedin": "LinkedIn",
+    "twitter": "X (Twitter)",
+    "copyright": "© 2025 Aikia Labs. Alle Rechte vorbehalten."
+  }
+}
+
