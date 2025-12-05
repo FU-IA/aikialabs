@@ -27,7 +27,12 @@ export default function Header() {
   };
 
   const getLinkHref = (href) => {
-    return getLocalizedPath(href, locale);
+    // Asegurar que siempre sea una ruta absoluta limpia
+    // Eliminar cualquier ruta relativa o duplicada
+    const cleanHref = href.startsWith('/') ? href : `/${href}`;
+    const localizedPath = getLocalizedPath(cleanHref, locale);
+    // Asegurar que la ruta final siempre empiece con / y no tenga rutas duplicadas
+    return localizedPath.startsWith('/') ? localizedPath : `/${localizedPath}`;
   };
 
   return (
@@ -53,15 +58,23 @@ export default function Header() {
               { href: '/case-studies', key: 'caseStudies' },
               { href: '/blog', key: 'blog' },
               { href: '/about', key: 'about' },
-            ].map((item) => (
-              <Link
-                key={item.key}
-                href={getLinkHref(item.href)}
-                className="text-zinc-700 hover:text-black rounded-full px-3 py-2 hover:bg-zinc-100 transition-colors relative after:content-[''] after:absolute after:left-3 after:right-3 after:-bottom-1 after:h-[2px] after:bg-zinc-900 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform"
-              >
-                {t(`common.${item.key}`)}
-              </Link>
-            ))}
+            ].map((item) => {
+              const linkHref = getLinkHref(item.href);
+              return (
+                <Link
+                  key={item.key}
+                  href={linkHref}
+                  onClick={(e) => {
+                    // Asegurar navegación absoluta
+                    e.preventDefault();
+                    router.push(linkHref);
+                  }}
+                  className="text-zinc-700 hover:text-black rounded-full px-3 py-2 hover:bg-zinc-100 transition-colors relative after:content-[''] after:absolute after:left-3 after:right-3 after:-bottom-1 after:h-[2px] after:bg-zinc-900 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform"
+                >
+                  {t(`common.${item.key}`)}
+                </Link>
+              );
+            })}
             
             {/* Language Selector */}
             <div className="ml-4 relative">
@@ -104,15 +117,23 @@ export default function Header() {
               { href: '/case-studies', key: 'caseStudies' },
               { href: '/about', key: 'about' },
               { href: '/blog', key: 'blog' },
-            ].map((item) => (
-              <Link
-                key={item.key}
-                href={getLinkHref(item.href)}
-                className="block text-zinc-700 rounded-md px-3 py-2 hover:bg-zinc-100 transition-all duration-150 duration-150 hover:-translate-y-1 hover:scale-[1.02]"
-              >
-                {t(`common.${item.key}`)}
-              </Link>
-            ))}
+            ].map((item) => {
+              const linkHref = getLinkHref(item.href);
+              return (
+                <Link
+                  key={item.key}
+                  href={linkHref}
+                  onClick={(e) => {
+                    // Asegurar navegación absoluta
+                    e.preventDefault();
+                    router.push(linkHref);
+                  }}
+                  className="block text-zinc-700 rounded-md px-3 py-2 hover:bg-zinc-100 transition-all duration-150 duration-150 hover:-translate-y-1 hover:scale-[1.02]"
+                >
+                  {t(`common.${item.key}`)}
+                </Link>
+              );
+            })}
             
             {/* Mobile Language Selector */}
             <div className="px-3 py-2">
