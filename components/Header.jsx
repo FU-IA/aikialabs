@@ -5,7 +5,15 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useT, useTranslation } from '../contexts/TranslationContext';
 import { usePathname, useRouter } from 'next/navigation';
-import { getLocalizedPath, getPathWithoutLocale, defaultLocale } from '../lib/translations';
+import { defaultLocale } from '../lib/translations';
+
+const SUPPORTED_LOCALES = ['en', 'es', 'de'];
+
+function stripLocale(pathname) {
+  // Quita /en, /es, /de del principio de la ruta
+  const regex = new RegExp(`^/(${SUPPORTED_LOCALES.join('|')})(?=/|$)`);
+  return pathname.replace(regex, '') || '/';
+}
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,18 +28,6 @@ export default function Header() {
     { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
   ];
 
-  const switchLanguage = (newLocale) => {
-    const currentPath = getPathWithoutLocale(pathname);
-    const newPath = getLocalizedPath(currentPath || '/', newLocale);
-    router.push(newPath);
-  };
-
-  // Siempre recibe rutas absolutas: "/", "/courses", "/blog", etc.
-  const getLinkHref = (href) => {
-    const cleanHref = href.startsWith('/') ? href : `/${href}`;
-    return getLocalizedPath(cleanHref, locale);
-  };
-
   const navItems = [
     { href: '/', key: 'home' },
     { href: '/courses', key: 'courses' },
@@ -40,13 +36,35 @@ export default function Header() {
     { href: '/about', key: 'about' },
   ];
 
+  const buildHref = (baseHref) => {
+    // baseHref SIEMPRE viene como ruta absoluta: "/", "/blog", "/about", etc.
+    if (locale === defaultLocale) {
+      return baseHref;            // "/", "/blog", "/about"...
+    }
+    if (baseHref === '/') {
+      return `/${locale}`;        // "/es", "/de"
+    }
+    return `/${locale}${baseHref}`; // "/es/blog", "/de/about", etc.
+  };
+
+  const switchLanguage = (newLocale) => {
+    const basePath = stripLocale(pathname);  // p.ej. "/blog", "/courses", "/"
+    let target;
+    if (newLocale === defaultLocale) {
+      target = basePath === '/' ? '/' : basePath;
+    } else {
+      target = basePath === '/' ? `/${newLocale}` : `/${newLocale}${basePath}`;
+    }
+    router.push(target);
+  };
+
   return (
     <header className="sticky top-0 z-50 bg-white/90 backdrop-blur supports-[backdrop-filter]:bg-white/75 border-b border-zinc-200">
       <nav className="container mx-auto px-6 py-3">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link
-            href={getLocalizedPath('/', locale)}
+            href={buildHref('/')}
             className="flex items-center h-16"
           >
             <Image
@@ -64,7 +82,7 @@ export default function Header() {
             {navItems.map((item) => (
               <Link
                 key={item.key}
-                href={getLinkHref(item.href)}
+                href={buildHref(item.href)}
                 className="text-zinc-700 hover:text-black rounded-full px-3 py-2 hover:bg-zinc-100 transition-colors relative after:content-[''] after:absolute after:left-3 after:right-3 after:-bottom-1 after:h-[2px] after:bg-zinc-900 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform cursor-pointer"
               >
                 {t(`common.${item.key}`)}
@@ -109,7 +127,7 @@ export default function Header() {
             {navItems.map((item) => (
               <Link
                 key={item.key}
-                href={getLinkHref(item.href)}
+                href={buildHref(item.href)}
                 className="block text-zinc-700 rounded-md px-3 py-2 hover:bg-zinc-100 transition-all duration-150 hover:-translate-y-1 hover:scale-[1.02] cursor-pointer"
                 onClick={() => setIsMenuOpen(false)}
               >
