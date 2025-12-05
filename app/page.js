@@ -4,9 +4,9 @@ import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
 import Link from "next/link";
 import Image from "next/image";
-import { useT } from "../../../../../contexts/TranslationContext";
-import { getLocalizedPath } from "../../../../../lib/translations";
-import { useTranslation } from "../../../../../contexts/TranslationContext";
+import { useT } from "../../../contexts/TranslationContext";
+import { getLocalizedPath } from "../../../lib/translations";
+import { useTranslation } from "../../../contexts/TranslationContext";
 
 export default function CaseStudiesPage() {
   const t = useT();
