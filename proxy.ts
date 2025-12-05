@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { locales, defaultLocale } from './lib/translations';
 
-export function proxy(request: NextRequest) {
+export default function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
   const pathnameHasLocale = locales.some(
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
