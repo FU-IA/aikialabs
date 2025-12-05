@@ -109,6 +109,819 @@
     "linkedin": "LinkedIn",
     "twitter": "X (Twitter)",
     "copyright": "© 2025 Aikia Labs. All rights reserved."
+  },
+  "caseStudiesPage": {
+    "heroTitle": "REAL AI IMPLEMENTATIONS",
+    "heroSubtitle": "See How AI Transforms Actual Businesses",
+    "heroDescription": "These aren't theoretical case studies—they're active AI implementations across my companies that I personally designed and optimize. Every technique taught in our courses comes from these real business operations.",
+    "educationSector": {
+      "title": "EDUCATION SECTOR TRANSFORMATIONS",
+      "subtitle": "FU International Academy & Learning in the Sun",
+      "case1": {
+        "title": "Student Placement Optimization System",
+        "challenge": "The Challenge:",
+        "challengeText": "Placing international students across 24 Spanish proficiency levels with diverse cultural backgrounds from 30+ countries required hours of manual assessment and frequent mismatches.",
+        "solution": "The AI Solution:",
+        "solutionItems": [
+          "Multi-factor assessment algorithm analyzing language skills, cultural background, and learning goals",
+          "Automated placement recommendations with 95% accuracy",
+          "Cultural adaptation support integrated into placement decisions",
+          "Progress tracking with intervention triggers for struggling students"
+        ],
+        "results": "The Results:",
+        "resultsItems": [
+          "95% student satisfaction rate across 2,000+ placements",
+          "80% reduction in placement reassignments",
+          "3 hours daily saved on administrative assessment tasks",
+          "40% improvement in student retention rates"
+        ],
+        "learn": "What You'll Learn:",
+        "learnText": "How to build assessment systems that consider multiple data points for personalized recommendations."
+      },
+      "case2": {
+        "title": "Multilingual Communication Automation",
+        "challenge": "The Challenge:",
+        "challengeText": "Managing inquiries in German, English, and Spanish from prospective students across different time zones while maintaining personalized responses.",
+        "solution": "The AI Solution:",
+        "solutionItems": [
+          "Automated initial response system with language detection",
+          "Cultural context integration for appropriate communication styles",
+          "Escalation triggers for complex inquiries requiring human intervention",
+          "Follow-up sequences tailored to student journey stage"
+        ],
+        "results": "The Results:",
+        "resultsItems": [
+          "70% of inquiries handled automatically with high satisfaction",
+          "24/7 availability across multiple time zones",
+          "60% faster response time to prospective students",
+          "50% reduction in administrative communication workload"
+        ],
+        "learn": "What You'll Learn:",
+        "learnText": "How to automate customer communication while maintaining cultural sensitivity and personal touch."
+      },
+      "case3": {
+        "title": "Curriculum Personalization Engine",
+        "challenge": "The Challenge:",
+        "challengeText": "Creating individualized learning paths for students with varying backgrounds, goals, and learning speeds in our Spanish programs.",
+        "solution": "The AI Solution:",
+        "solutionItems": [
+          "Progress analysis with predictive modeling for optimal pacing",
+          "Content adaptation based on cultural learning preferences",
+          "Automatic difficulty adjustment with engagement monitoring",
+          "Intervention recommendations for struggling learners"
+        ],
+        "results": "The Results:",
+        "resultsItems": [
+          "40% increase in student retention",
+          "30% improvement in learning outcome assessments",
+          "2 hours daily saved on individual lesson customization",
+          "Higher satisfaction scores across all proficiency levels"
+        ],
+        "learn": "What You'll Learn:",
+        "learnText": "How to create adaptive learning systems that respond to individual student needs and progress patterns."
+      }
+    },
+    "hospitalityOperations": {
+      "title": "HOSPITALITY OPERATIONS REVOLUTION",
+      "subtitle": "FU Café - Smart Restaurant Management",
+      "case4": {
+        "title": "AI Inventory Management System",
+        "challenge": "The Challenge:",
+        "challengeText": "Balancing fresh ingredient availability with minimal waste in a café serving unpredictable tourist and local customer flows.",
+        "solution": "The AI Solution:",
+        "solutionItems": [
+          "Weather-based demand forecasting integrated with local event calendars",
+          "Real-time inventory tracking with automatic reorder triggers",
+          "Menu optimization based on ingredient availability and profitability",
+          "Waste pattern analysis with prevention recommendations"
+        ],
+        "results": "The Results:",
+        "resultsItems": [
+          "60% reduction in food waste",
+          "25% improvement in profit margins",
+          "4 hours weekly saved on inventory management",
+          "Improved menu availability during peak periods"
+        ],
+        "learn": "What You'll Learn:",
+        "learnText": "How to build predictive systems that optimize resource allocation and reduce operational waste."
+      }
+    },
+    "minifu": {
+      "subtitle": "miniFU - Booking Conflict Resolution",
+      "case5": {
+        "title": "Smart Scheduling Algorithm",
+        "challenge": "The Challenge:",
+        "challengeText": "Managing birthday party bookings, regular playground sessions, and special events in shared spaces with frequent conflicts and customer complaints.",
+        "solution": "The AI Solution:",
+        "solutionItems": [
+          "Multi-resource scheduling with conflict prevention",
+          "Customer preference learning and automatic suggestions",
+          "Capacity optimization with revenue maximization",
+          "Automated communication for booking confirmations and changes"
+        ],
+        "results": "The Results:",
+        "resultsItems": [
+          "80% reduction in booking conflicts",
+          "95% customer satisfaction rate for party bookings",
+          "3 hours daily saved on scheduling management",
+          "30% increase in booking efficiency and revenue"
+        ],
+        "learn": "What You'll Learn:",
+        "learnText": "How to create intelligent scheduling systems that prevent conflicts while optimizing resource utilization."
+      },
+      "case6": {
+        "title": "Customer Experience Personalization",
+        "challenge": "The Challenge:",
+        "challengeText": "Providing consistent, personalized service across different customer types (families, birthday parties, regular visitors) with limited staff.",
+        "solution": "The AI Solution:",
+        "solutionItems": [
+          "Customer history analysis with preference tracking",
+          "Automated loyalty program management with personalized rewards",
+          "Service recommendation engine based on past visits",
+          "Staff notification system for VIP customer recognition"
+        ],
+        "results": "The Results:",
+        "resultsItems": [
+          "85% increase in repeat customer visits",
+          "40% improvement in average spend per visit",
+          "Staff efficiency increased through automated customer insights",
+          "Reduced complaints through proactive service customization"
+        ],
+        "learn": "What You'll Learn:",
+        "learnText": "How to leverage customer data for personalized service delivery without overwhelming your team."
+      }
+    },
+    "careerServices": {
+      "title": "CAREER SERVICES INNOVATION",
+      "subtitle": "Career Bridge Europe - International Placement",
+      "case7": {
+        "title": "Student-Opportunity Matching Algorithm",
+        "challenge": "The Challenge:",
+        "challengeText": "Matching international students with appropriate internships and job opportunities across European markets with different requirements and cultural contexts.",
+        "solution": "The AI Solution:",
+        "solutionItems": [
+          "Skills assessment with gap analysis and development recommendations",
+          "Cultural fit evaluation for international placements",
+          "Employer requirement matching with success probability scoring",
+          "Progress tracking with career pathway optimization"
+        ],
+        "results": "The Results:",
+        "resultsItems": [
+          "95% satisfaction rate across 2,000+ student placements",
+          "75% reduction in mismatched placements",
+          "5 hours daily saved on manual candidate screening",
+          "90% successful completion rate for international programs"
+        ],
+        "learn": "What You'll Learn:",
+        "learnText": "How to build matching systems that consider multiple complex factors for optimal outcomes."
+      },
+      "case8": {
+        "title": "Cultural Adaptation Support System",
+        "challenge": "The Challenge:",
+        "challengeText": "Helping international students adapt to different European work cultures while maintaining their unique strengths and perspectives.",
+        "solution": "The AI Solution:",
+        "solutionItems": [
+          "Cultural context analysis with adaptation recommendations",
+          "Personalized integration support based on background and destination",
+          "Progress monitoring with intervention triggers for struggling adaptations",
+          "Success pattern analysis for continuous improvement"
+        ],
+        "results": "The Results:",
+        "resultsItems": [
+          "60% reduction in early program dropout",
+          "80% improvement in cultural adaptation success",
+          "Scalable support across multiple European destinations",
+          "Higher employer satisfaction with international candidates"
+        ],
+        "learn": "What You'll Learn:",
+        "learnText": "How to create support systems that help people navigate complex cultural and professional transitions."
+      }
+    },
+    "travelAccommodation": {
+      "title": "TRAVEL & ACCOMMODATION OPTIMIZATION",
+      "subtitle": "Hostel Campus & Canary Campus Travels",
+      "case9": {
+        "title": "Guest Experience Optimization",
+        "challenge": "The Challenge:",
+        "challengeText": "Providing personalized accommodation and travel experiences for diverse international guests with varying preferences and budgets.",
+        "solution": "The AI Solution:",
+        "solutionItems": [
+          "Guest preference analysis with personalized recommendations",
+          "Dynamic pricing optimization based on demand and occupancy",
+          "Experience curation based on guest profiles and local opportunities",
+          "Automated communication with cultural sensitivity"
+        ],
+        "results": "The Results:",
+        "resultsItems": [
+          "90% guest satisfaction across accommodation services",
+          "35% increase in revenue through optimized pricing",
+          "4 hours daily saved on guest service coordination",
+          "Higher repeat booking rates through personalized experiences"
+        ],
+        "learn": "What You'll Learn:",
+        "learnText": "How to create personalized guest experiences that scale across different service levels and cultural contexts."
+      }
+    },
+    "integratedOperations": {
+      "title": "INTEGRATED OPERATIONS MANAGEMENT",
+      "subtitle": "Cross-Business AI Coordination",
+      "case10": {
+        "title": "Multi-Business Resource Optimization",
+        "challenge": "The Challenge:",
+        "challengeText": "Coordinating staff, resources, and operations across 9+ brands with different peak periods, requirements, and customer bases.",
+        "solution": "The AI Solution:",
+        "solutionItems": [
+          "Cross-business scheduling optimization with conflict prevention",
+          "Resource allocation algorithms considering all business needs",
+          "Performance analytics across the entire business ecosystem",
+          "Predictive planning for seasonal variations and special events"
+        ],
+        "results": "The Results:",
+        "resultsItems": [
+          "90% reduction in cross-business scheduling conflicts",
+          "25% improvement in overall operational efficiency",
+          "300% business growth without proportional staff increases",
+          "Unified management of complex multi-business operations"
+        ],
+        "learn": "What You'll Learn:",
+        "learnText": "How to create integrated systems that optimize resources across multiple related businesses or departments."
+      }
+    },
+    "implementationInsights": {
+      "title": "IMPLEMENTATION INSIGHTS",
+      "subtitle": "What Makes These Implementations Successful",
+      "insight1": {
+        "title": "Business-First Approach",
+        "description": "Every AI implementation started with a clear business problem and measurable success criteria. Technology served business needs, not the other way around."
+      },
+      "insight2": {
+        "title": "European Compliance Foundation",
+        "description": "We prioritize compliance with European regulations, ensuring our AI education programs meet the highest standards of data protection and ethical AI practices."
+      },
+      "insight3": {
+        "title": "Human-AI Collaboration",
+        "description": "Our approach integrates human insights with AI capabilities, fostering better decision-making and more effective learning outcomes for educators and professionals."
+      },
+      "insight4": {
+        "title": "Continuous Optimization",
+        "description": "We continuously optimize our AI courses and consulting services, ensuring they remain cutting-edge and aligned with the evolving needs of the education sector."
+      },
+      "insight5": {
+        "title": "Privacy by Design",
+        "description": "We are committed to privacy by design, ensuring data protection is a core principle in all our AI education programs and consulting services from the outset."
+      }
+    },
+    "courseApplications": {
+      "title": "Course Applications",
+      "subtitle": "Learn these strategies",
+      "forProfessionals": {
+        "title": "For European Professionals",
+        "description": "These case studies provide the foundation for our AI-First Mindset Course for European Professionals. You'll learn the strategic thinking and implementation frameworks behind these successes.",
+        "button": "Learn More About Professional Course"
+      },
+      "forEducators": {
+        "title": "For Educators",
+        "description": "The educational implementations showcase what's possible in our AI-First Mindset Course for Educators. See how AI can transform teaching practice and student outcomes.",
+        "button": "Learn More About Educator Course"
+      }
+    },
+    "implementationMethodology": {
+      "title": "IMPLEMENTATION METHODOLOGY",
+      "subtitle": "How We Approach AI Projects",
+      "phase1": {
+        "title": "Phase 1: Problem Definition (Week 1)",
+        "items": [
+          "Business process analysis and pain point identification",
+          "Success criteria definition with measurable outcomes",
+          "Stakeholder alignment and change management planning",
+          "Technical feasibility assessment with compliance review"
+        ]
+      },
+      "phase2": {
+        "title": "Phase 2: Solution Design (Week 2-3)",
+        "items": [
+          "AI strategy development with European compliance integration",
+          "System architecture design with privacy by design principles",
+          "User experience planning with cultural considerations",
+          "Testing framework establishment with success metrics"
+        ]
+      },
+      "phase3": {
+        "title": "Phase 3: Implementation (Week 4-8)",
+        "items": [
+          "Phased rollout with continuous monitoring",
+          "Staff training and change management support",
+          "Performance optimization and adjustment",
+          "Integration with existing business systems"
+        ]
+      },
+      "phase4": {
+        "title": "Phase 4: Optimization (Ongoing)",
+        "items": [
+          "Performance analysis and improvement recommendations",
+          "User feedback integration and system refinement",
+          "Scaling opportunities identification",
+          "Continuous compliance monitoring and updates"
+        ]
+      }
+    },
+    "resultsSummary": {
+      "title": "RESULTS SUMMARY",
+      "subtitle": "Quantified Business Impact Across All Implementations",
+      "timeSavings": {
+        "title": "Time Savings",
+        "items": [
+          "20+ hours weekly saved across personal management tasks",
+          "15+ hours daily saved across all business operations",
+          "300% efficiency improvement in administrative tasks",
+          "50% faster customer service response times"
+        ]
+      },
+      "financialImpact": {
+        "title": "Financial Impact",
+        "items": [
+          "25% average profit margin improvement across hospitality operations",
+          "35% revenue increase through optimized pricing and experiences",
+          "60% cost reduction in waste and operational inefficiencies",
+          "ROI achieved within 3–6 months for all major implementations"
+        ]
+      },
+      "qualityImprovements": {
+        "title": "Quality Improvements",
+        "items": [
+          "95% customer satisfaction maintained across all services",
+          "90% success rate for complex matching and placement algorithms",
+          "80% reduction in operational conflicts and errors",
+          "Improved outcomes for students, guests, and business operations"
+        ]
+      },
+      "scalabilityAchievements": {
+        "title": "Scalability Achievements",
+        "items": [
+          "300% business growth without proportional staff increases",
+          "Multiple market expansion enabled through AI efficiency",
+          "Sustainable operations across 9+ diverse business brands",
+          "Replicable frameworks adaptable to different industries"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Learn Our Proven Methodology",
+      "subtitle": "Want to implement similar solutions?",
+      "throughCourses": {
+        "title": "Through Our Courses",
+        "description": "Master the strategic thinking and practical implementation skills behind these successes.",
+        "button": "View All Courses"
+      },
+      "throughConsultation": {
+        "title": "Through Consultation",
+        "description": "Work directly with Frank to adapt these strategies to your specific business context.",
+        "button": "Inquiry Form"
+      },
+      "throughResources": {
+        "title": "Through Our Resources",
+        "description": "Access frameworks, templates, and implementation guides based on these real projects.",
+        "button": "Download Implementation Guide"
+      }
+    }
+  },
+  "coursesPage": {
+    "heroTitle": "OUR AI COURSES",
+    "heroSubtitle": "Practical AI Training from Real Business Implementations",
+    "heroDescription": "I teach AI strategies that have been tested across my education, hospitality, and career services companies. Both courses combine hands-on practice with strategic thinking — the same approach I've used training professionals for 20+ years.",
+    "heroQuestion": "Which course fits your goals?",
+    "educatorsCourse": {
+      "title": "The AI-First Mindset Course for Educators",
+      "subtitle": "Revolutionize your teaching practice and reclaim your time",
+      "perfectIf": "🎯 Perfect If You're:",
+      "perfectIfItems": [
+        "K-12 classroom teacher",
+        "Subject coordinator or department head",
+        "Curriculum developer",
+        "Educational technology leader",
+        "Teacher training professional"
+      ],
+      "whatYouTransform": "⚡ What You'll Transform:",
+      "transformItems": [
+        "Eliminate Sunday lesson planning completely",
+        "Automate feedback and assessment creation",
+        "Design engaging, interactive learning experiences",
+        "Support diverse learners effortlessly",
+        "Lead AI innovation in your school"
+      ],
+      "courseDetails": "📍 Course Details:",
+      "detailsItems": [
+        "5 days professional development in Tenerife",
+        "€490 – Erasmus+ funding eligible",
+        "Next cohort: October 27–31, 2025",
+        "25 contact hours for CPD requirements"
+      ],
+      "button": "Learn More About This Course"
+    },
+    "professionalsCourse": {
+      "title": "The AI-First Mindset Course for European Professionals",
+      "subtitle": "Transform your daily work with proven AI strategies",
+      "perfectIf": "🎯 Perfect If You're:",
+      "perfectIfItems": [
+        "Marketing coordinator or manager",
+        "Project manager or operations specialist",
+        "HR administrator or business professional",
+        "Seeking practical efficiency gains",
+        "Working in European business environment"
+      ],
+      "whatYouAchieve": "⚡ What You'll Achieve:",
+      "achieveItems": [
+        "Save 8–10 hours weekly through AI automation",
+        "Master voice-first workflows and mobile productivity",
+        "Implement GDPR-compliant AI solutions",
+        "Create professional content 3x faster",
+        "Become your team's AI resource"
+      ],
+      "courseDetails": "📍 Course Details:",
+      "detailsItems": [
+        "5 days intensive in Tenerife",
+        "€790 – Bildungsurlaub eligible",
+        "Next cohort: March 2025",
+        "Small groups for personalized attention"
+      ],
+      "button": "Learn More About This Course"
+    },
+    "courseExperience": {
+      "title": "COURSE EXPERIENCE",
+      "subtitle": "Learn in Paradise",
+      "location": "FU International Academy, Puerto de la Cruz, Tenerife",
+      "description": "Both courses combine intensive learning with the inspiring environment of Tenerife. Professional development in a beautiful setting with cultural activities and networking opportunities.",
+      "testimonialsTitle": "What Past Participants Say:",
+      "testimonial1": {
+        "quote": "Frank's course showed me AI implementations I could actually use Monday morning. The real business examples made all the difference.",
+        "author": "Elena Rodriguez",
+        "role": "Marketing Manager"
+      },
+      "testimonial2": {
+        "quote": "Finally, AI training from someone who actually uses it in their own businesses every day.",
+        "author": "Klaus Weber",
+        "role": "Operations Director"
+      },
+      "testimonial3": {
+        "quote": "Best professional development investment I've made. Saved 15 hours weekly within a month.",
+        "author": "Sophie Dubois",
+        "role": "Project Manager"
+      }
+    },
+    "stillDeciding": {
+      "title": "STILL DECIDING?",
+      "subtitle": "Get More Information",
+      "freeResources": {
+        "icon": "📧",
+        "title": "Free Resources",
+        "description": "Detailed curriculum breakdown for both courses<br />Real AI implementation stories from my businesses",
+        "button": "Subscribe to Weekly Insights"
+      },
+      "questions": {
+        "icon": "💬",
+        "title": "Questions?",
+        "description": "<strong>Email:</strong> frank@aikialabs.com<br />I personally respond to all course inquiries within 24 hours."
+      },
+      "seeInAction": {
+        "icon": "🔍",
+        "title": "See the AI in Action",
+        "description": "Real implementations you'll learn from in both courses",
+        "button": "View Our Case Studies"
+      }
+    },
+    "cta": {
+      "title": "READY TO TRANSFORM YOUR WORK?",
+      "subtitle": "Choose Your Course:",
+      "professionals": {
+        "title": "Business efficiency and automation",
+        "subtitle": "European Professionals Course",
+        "button": "Learn More"
+      },
+      "educators": {
+        "title": "Teaching transformation and student engagement",
+        "subtitle": "Educators Course",
+        "button": "Learn More"
+      }
+    }
+  },
+  "aboutPage": {
+    "heroTitle": "MEET FRANK SELLINGSLOH",
+    "heroSubtitle": "Your AI Implementation Guide",
+    "heroDescription": "I'm Frank Sellingsloh, and I've been obsessed with AI since day 5 of ChatGPT's release. But my real credential isn't early adoption—it's that I've successfully implemented AI across multiple real businesses while maintaining quality, compliance, and team satisfaction.",
+    "location": "Location:",
+    "locationValue": "Tenerife, Spain",
+    "experience": "Experience:",
+    "experienceValue": "25+ years digital transformation",
+    "activeBusinesses": "Active Businesses:",
+    "activeBusinessesValue": "3 companies with 7+ brands",
+    "aiJourney": {
+      "title": "MY AI JOURNEY",
+      "subtitle": "From Business Owner to AI Implementation Expert",
+      "day5Title": "Day 5 After ChatGPT: The Moment Everything Changed",
+      "day5Text1": "While most people were still figuring out what ChatGPT was, I was already a paid subscriber. Managing 6+ companies across education, hospitality, and career services was overwhelming—I needed a solution, not a toy.",
+      "day5Text2": "What started as desperation became revelation. Within weeks, I had:",
+      "day5Items": [
+        "Reduced my weekly workload from 60+ hours to manageable levels",
+        "Automated 80% of routine tasks across all businesses",
+        "Improved customer satisfaction while reducing operational costs",
+        "Enabled 300% business growth without proportional staff increases"
+      ],
+      "realizationTitle": "The Realization: AI Wasn't Just Technology—It Was Strategy",
+      "realizationText": "The breakthrough came when I stopped thinking \"How do I use AI?\" and started asking \"How can AI help me with this?\" before every task. That simple shift transformed everything."
+    },
+    "uniqueBackground": {
+      "title": "MY UNIQUE BACKGROUND",
+      "subtitle": "25+ Years of Digital Transformation Leadership",
+      "education": {
+        "title": "🎓 Educational Foundation",
+        "items": [
+          "Economics degree from University of Göttingen, Germany",
+          "Not a computer scientist – I learned AI through business necessity, not academic theory",
+          "Adult learning specialist with focus on practical application over theoretical knowledge"
+        ]
+      },
+      "international": {
+        "title": "🌍 International Business Experience",
+        "items": [
+          "Started my first digital marketing agency in Tenerife in 1999",
+          "Erasmus+ coordinator since 2004 – trained 2,000+ international professionals",
+          "Built 6+ companies from startups to market leaders across multiple industries",
+          "ISO 9001 certified operations with Instituto Cervantes accreditation"
+        ]
+      },
+      "digitalEvolution": {
+        "title": "🚀 Digital Evolution Witness",
+        "items": [
+          "Been through every major digital transformation since 1999",
+          "From affiliate marketing to AI automation – I've implemented it all",
+          "Survived dot-com crashes, social media revolutions, and mobile disruptions",
+          "Now leading the AI transformation with real business implementations"
+        ]
+      }
+    },
+    "whatMakesDifferent": {
+      "title": "WHAT MAKES MY APPROACH DIFFERENT",
+      "subtitle": "Real Implementation vs. Theoretical Knowledge",
+      "activeOperations": {
+        "title": "Active Business Operations",
+        "description": "Most AI educators teach theory. I implement AI daily across:",
+        "details": [
+          "Education services (FU International Academy, Learning in the Sun)",
+          "Hospitality operations (FU Café, miniFU, Co-Working the Sun)",
+          "Career services (Career Bridge Europe)",
+          "Travel & accommodation (Canary Campus Travels, Hostel Campus)"
+        ],
+        "note": "Every strategy I teach has been tested with my own money on the line."
+      },
+      "europeanReality": {
+        "title": "European Business Reality",
+        "details": [
+          "GDPR compliance expert – all implementations are privacy-first",
+          "Multilingual operations in German, English, and Spanish",
+          "Cultural adaptation for diverse European markets",
+          "Regulatory navigation across multiple European jurisdictions"
+        ]
+      },
+      "businessFirst": {
+        "title": "Business-First Methodology",
+        "details": [
+          "ROI-driven implementations – every AI system must demonstrate value",
+          "Human-AI collaboration – AI enhances rather than replaces people",
+          "Scalable solutions – frameworks that grow with business needs",
+          "Risk management – proven strategies, not experimental approaches"
+        ]
+      }
+    },
+    "businessEcosystem": {
+      "title": "MY BUSINESS ECOSYSTEM",
+      "subtitle": "Where AI Gets Tested Daily",
+      "education": {
+        "title": "Education Portfolio",
+        "name": "FU International Academy Tenerife",
+        "role": "CEO since 2004",
+        "services": [
+          "Hablamos Español: Spanish courses with 24-level AI-optimized placement system",
+          "Learning in the Sun: Erasmus+ programs with AI-powered student-opportunity matching",
+          "Hablemos Español: Online Spanish learning with adaptive AI curriculum",
+          "SEOintheSUN: Digital marketing education with AI-enhanced content creation"
+        ]
+      },
+      "hospitality": {
+        "title": "Hospitality & Experience Brands",
+        "items": [
+          "FU Café: Restaurant with AI inventory management reducing waste by 60%",
+          "miniFU: Indoor playground with AI booking system eliminating 80% of conflicts",
+          "Co-Working the Sun: Digital nomad workspace with AI-optimized member experience"
+        ]
+      },
+      "career": {
+        "title": "Career & Travel Services",
+        "items": [
+          "Career Bridge Europe: International placement with 95% satisfaction through AI matching",
+          "Hostel Campus: Student accommodation with AI-enhanced guest experience optimization",
+          "Canary Campus Travels: Educational travel with AI-powered experience personalization"
+        ]
+      },
+      "result": "Result: Integrated ecosystem where AI implementations across one business inform innovations in others."
+    },
+    "teamApproach": {
+      "title": "MY TEAM APPROACH",
+      "subtitle": "Collaborative AI Innovation",
+      "myRole": {
+        "title": "🧠 My Role: Strategy & Concept Generation",
+        "items": [
+          "Identify AI opportunities across all business operations",
+          "Design implementation strategies based on real business needs",
+          "Lead course development and educational program delivery",
+          "Guide overall AI direction and strategic decision-making"
+        ]
+      },
+      "myTeam": {
+        "title": "👥 My Team: Development & Optimization",
+        "items": [
+          "Skilled developers who turn AI concepts into working business solutions",
+          "Operations specialists who ensure implementations work in real-world conditions",
+          "Testing and refinement experts who optimize performance and user experience",
+          "Cultural adaptation specialists for international and multilingual implementations"
+        ]
+      },
+      "whyWorks": {
+        "title": "🤝 Why This Collaboration Works",
+        "items": [
+          "I understand business problems from 25+ years of operational experience",
+          "My team understands technical implementation and system optimization",
+          "Together we create solutions that are both strategically sound and technically excellent",
+          "Students learn both perspectives – creative AI thinking and practical execution"
+        ]
+      }
+    },
+    "teachingPhilosophy": {
+      "title": "MY TEACHING PHILOSOPHY",
+      "subtitle": "Practical Application Over Theoretical Knowledge",
+      "adultLearning": {
+        "title": "🎯 Adult Learning Principles",
+        "items": [
+          "Immediate relevance – every technique applies to real work situations",
+          "Hands-on practice – learning by doing, not just discussing",
+          "Problem-solving focus – address actual challenges participants face",
+          "Peer collaboration – learn from diverse professional experiences"
+        ]
+      },
+      "implementationDriven": {
+        "title": "🔄 Implementation-Driven Curriculum",
+        "items": [
+          "Start with business problems – not AI capabilities",
+          "Show real examples from my actual business operations",
+          "Practice with personal projects – work on your own challenges",
+          "Leave with working systems – not just knowledge"
+        ]
+      },
+      "europeanContext": {
+        "title": "🌍 European Context Integration",
+        "items": [
+          "GDPR compliance built into every strategy",
+          "Cultural sensitivity for international business environments",
+          "Regulatory awareness for European operational requirements",
+          "Multilingual considerations for diverse market operations"
+        ]
+      }
+    },
+    "whyITeach": {
+      "title": "WHY I TEACH",
+      "subtitle": "Sharing What Actually Works",
+      "personalMission": {
+        "title": "Personal Mission",
+        "text": "After seeing how AI transformed my own businesses, I realized most professionals are struggling with the same challenges I faced. They know AI is important but don't know where to start or how to implement it effectively."
+      },
+      "uniqueValue": {
+        "title": "Unique Value",
+        "items": [
+          "Real implementation experience that most educators lack",
+          "Multi-industry perspective from diverse business operations",
+          "European compliance expertise that US-based trainers don't have",
+          "Proven teaching methodology from 20+ years in professional development"
+        ]
+      },
+      "studentOutcomes": {
+        "title": "Student Outcomes",
+        "text": "My success is measured by student results:",
+        "items": [
+          "Immediate time savings through practical AI applications",
+          "Confidence building with technology integration",
+          "Professional advancement through enhanced capabilities",
+          "Business improvement through effective AI implementation"
+        ]
+      }
+    },
+    "tenerifeStory": {
+      "title": "MY STORY IN TENERIFE",
+      "subtitle": "German Entrepreneur in Spanish Paradise",
+      "whyTenerife": {
+        "title": "🏝️ Why Tenerife?",
+        "text": "I chose Tenerife as my base in 1999, and it's been the perfect environment for building international businesses:",
+        "items": [
+          "Strategic European location with excellent connectivity",
+          "Year-round professional development climate for courses and retreats",
+          "International community that understands diverse business cultures",
+          "Innovation-friendly environment for testing new technologies"
+        ]
+      },
+      "globalReach": {
+        "title": "🌍 Global Reach from Island Base",
+        "text": "From Tenerife, I manage:",
+        "items": [
+          "European-wide education programs through Erasmus+ network",
+          "International student placements across 30+ countries",
+          "Multilingual business operations serving diverse markets",
+          "AI implementations adapted for different cultural contexts"
+        ]
+      },
+      "workLifeIntegration": {
+        "title": "🏖️ Work-Life Integration",
+        "text": "Tenerife enables the work-life balance I teach:",
+        "items": [
+          "Professional excellence in inspiring environment",
+          "Cultural richness that informs international business understanding",
+          "Quality of life that supports long-term creativity and innovation",
+          "Perfect setting for intensive learning experiences"
+        ]
+      }
+    },
+    "credentials": {
+      "title": "CREDENTIALS & RECOGNITION",
+      "subtitle": "Professional Qualifications",
+      "education": {
+        "icon": "🎓",
+        "title": "Education & Certification",
+        "text": "Hands-on AI courses tailored for European educators and professionals. Learn practical skills and stay ahead in the AI landscape."
+      },
+      "achievements": {
+        "icon": "🏆",
+        "title": "Business Achievements",
+        "text": "Strategic AI consulting services to help your organization implement AI solutions effectively and achieve your business goals."
+      },
+      "recognition": {
+        "icon": "🌍",
+        "title": "International Recognition",
+        "text": "Explore real-world AI implementations across education, hospitality, career services, and more. See how AI can transform your industry."
+      }
+    },
+    "getInTouch": {
+      "title": "Get in touch",
+      "email": {
+        "title": "📧 Email",
+        "email": "frank@aikialabs.com",
+        "note": "I personally respond to all inquiries within 24 hours"
+      },
+      "networks": {
+        "title": "💼 Professional Networks",
+        "linkedin": "/in/franksellingsloh",
+        "note": "Follow for daily AI implementation insights"
+      },
+      "location": {
+        "title": "📍 Location",
+        "value": "Tenerife, Spain",
+        "note": "Available for courses, consulting, and speaking engagements across Europe"
+      },
+      "helpWith": {
+        "title": "💬 What I Can Help With",
+        "items": [
+          "Course selection guidance for your professional development needs",
+          "Implementation questions about AI strategies for your business or educational context",
+          "Speaking opportunities for conferences, institutions, and corporate events",
+          "Consultation inquiries for custom AI implementation projects"
+        ]
+      }
+    },
+    "cta": {
+      "title": "READY TO LEARN TOGETHER?",
+      "subtitle": "Choose Your Path",
+      "joinCourse": {
+        "icon": "🎓",
+        "title": "Join a Course",
+        "description": "Learn proven AI implementation strategies through hands-on professional development programs.",
+        "button": "View Our Courses"
+      },
+      "exploreCaseStudies": {
+        "icon": "📚",
+        "title": "Explore Case Studies",
+        "description": "See real AI implementations from my businesses to understand what's possible.",
+        "button": "Read Implementation Stories"
+      },
+      "stayConnected": {
+        "icon": "📧",
+        "title": "Stay Connected",
+        "description": "Get weekly insights from my ongoing AI implementations across multiple businesses.",
+        "button": "Subscribe to Updates"
+      },
+      "closing": "Ready to transform your work with AI? I'm here to guide you through proven strategies that actually work in real business environments."
+    }
+  },
+  "blogPage": {
+    "heroTitle": "Recent Blog Posts",
+    "heroDescription": "Explore the latest insights and practical AI strategies",
+    "noPostsTitle": "No Blog Posts Found",
+    "noPostsDescription": "There are currently no blog posts to display."
   }
 }
 
