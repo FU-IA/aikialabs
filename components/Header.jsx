@@ -27,12 +27,16 @@ export default function Header() {
   };
 
   const getLinkHref = (href) => {
-    // Asegurar que siempre sea una ruta absoluta limpia
+    // Asegurar que siempre sea una ruta absoluta limpia desde la raíz
     // Eliminar cualquier ruta relativa o duplicada
     const cleanHref = href.startsWith('/') ? href : `/${href}`;
-    const localizedPath = getLocalizedPath(cleanHref, locale);
-    // Asegurar que la ruta final siempre empiece con / y no tenga rutas duplicadas
-    return localizedPath.startsWith('/') ? localizedPath : `/${localizedPath}`;
+    // Normalizar la ruta para eliminar cualquier duplicación
+    const normalizedHref = cleanHref.replace(/\/+/g, '/').replace(/\/$/, '') || '/';
+    const localizedPath = getLocalizedPath(normalizedHref, locale);
+    // Asegurar que la ruta final siempre empiece con / y sea absoluta desde la raíz
+    const finalPath = localizedPath.startsWith('/') ? localizedPath : `/${localizedPath}`;
+    // Eliminar cualquier duplicación de barras
+    return finalPath.replace(/\/+/g, '/');
   };
 
   return (
@@ -60,19 +64,22 @@ export default function Header() {
               { href: '/about', key: 'about' },
             ].map((item) => {
               const linkHref = getLinkHref(item.href);
+              // Asegurar que la ruta siempre sea absoluta desde la raíz
+              const absolutePath = linkHref.startsWith('/') ? linkHref : `/${linkHref}`;
               return (
-                <Link
+                <a
                   key={item.key}
-                  href={linkHref}
+                  href={absolutePath}
                   onClick={(e) => {
-                    // Asegurar navegación absoluta
+                    // Asegurar navegación absoluta - prevenir comportamiento por defecto
                     e.preventDefault();
-                    router.push(linkHref);
+                    // Usar router.push con la ruta absoluta
+                    router.push(absolutePath);
                   }}
-                  className="text-zinc-700 hover:text-black rounded-full px-3 py-2 hover:bg-zinc-100 transition-colors relative after:content-[''] after:absolute after:left-3 after:right-3 after:-bottom-1 after:h-[2px] after:bg-zinc-900 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform"
+                  className="text-zinc-700 hover:text-black rounded-full px-3 py-2 hover:bg-zinc-100 transition-colors relative after:content-[''] after:absolute after:left-3 after:right-3 after:-bottom-1 after:h-[2px] after:bg-zinc-900 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform cursor-pointer"
                 >
                   {t(`common.${item.key}`)}
-                </Link>
+                </a>
               );
             })}
             
@@ -119,19 +126,22 @@ export default function Header() {
               { href: '/blog', key: 'blog' },
             ].map((item) => {
               const linkHref = getLinkHref(item.href);
+              // Asegurar que la ruta siempre sea absoluta desde la raíz
+              const absolutePath = linkHref.startsWith('/') ? linkHref : `/${linkHref}`;
               return (
-                <Link
+                <a
                   key={item.key}
-                  href={linkHref}
+                  href={absolutePath}
                   onClick={(e) => {
-                    // Asegurar navegación absoluta
+                    // Asegurar navegación absoluta - prevenir comportamiento por defecto
                     e.preventDefault();
-                    router.push(linkHref);
+                    // Usar router.push con la ruta absoluta
+                    router.push(absolutePath);
                   }}
-                  className="block text-zinc-700 rounded-md px-3 py-2 hover:bg-zinc-100 transition-all duration-150 duration-150 hover:-translate-y-1 hover:scale-[1.02]"
+                  className="block text-zinc-700 rounded-md px-3 py-2 hover:bg-zinc-100 transition-all duration-150 duration-150 hover:-translate-y-1 hover:scale-[1.02] cursor-pointer"
                 >
                   {t(`common.${item.key}`)}
-                </Link>
+                </a>
               );
             })}
             
