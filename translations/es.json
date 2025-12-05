@@ -109,6 +109,381 @@
     "linkedin": "LinkedIn",
     "twitter": "X (Twitter)",
     "copyright": "© 2025 Aikia Labs. Todos los derechos reservados."
+  },
+  "caseStudiesPage": {
+    "heroTitle": "IMPLEMENTACIONES REALES DE IA",
+    "heroSubtitle": "Vea Cómo la IA Transforma Negocios Reales",
+    "heroDescription": "Estos no son casos de estudio teóricos—son implementaciones activas de IA en mis empresas que diseñé y optimizo personalmente. Cada técnica enseñada en nuestros cursos proviene de estas operaciones comerciales reales.",
+    "educationSector": {
+      "title": "TRANSFORMACIONES DEL SECTOR EDUCATIVO",
+      "subtitle": "FU International Academy & Learning in the Sun",
+      "case1": {
+        "title": "Sistema de Optimización de Colocación de Estudiantes",
+        "challenge": "El Desafío:",
+        "challengeText": "Colocar estudiantes internacionales en 24 niveles de competencia en español con diversos antecedentes culturales de más de 30 países requería horas de evaluación manual y frecuentes desajustes.",
+        "solution": "La Solución de IA:",
+        "solutionItems": [
+          "Algoritmo de evaluación multifactorial que analiza habilidades lingüísticas, antecedentes culturales y objetivos de aprendizaje",
+          "Recomendaciones de colocación automatizadas con 95% de precisión",
+          "Soporte de adaptación cultural integrado en las decisiones de colocación",
+          "Seguimiento del progreso con disparadores de intervención para estudiantes con dificultades"
+        ],
+        "results": "Los Resultados:",
+        "resultsItems": [
+          "95% de satisfacción estudiantil en más de 2,000 colocaciones",
+          "80% de reducción en reasignaciones de colocación",
+          "3 horas diarias ahorradas en tareas de evaluación administrativa",
+          "40% de mejora en las tasas de retención estudiantil"
+        ],
+        "learn": "Lo Que Aprenderás:",
+        "learnText": "Cómo construir sistemas de evaluación que consideren múltiples puntos de datos para recomendaciones personalizadas."
+      },
+      "case2": {
+        "title": "Automatización de Comunicación Multilingüe",
+        "challenge": "El Desafío:",
+        "challengeText": "Gestionar consultas en alemán, inglés y español de estudiantes potenciales en diferentes zonas horarias mientras se mantienen respuestas personalizadas.",
+        "solution": "La Solución de IA:",
+        "solutionItems": [
+          "Sistema de respuesta inicial automatizado con detección de idioma",
+          "Integración de contexto cultural para estilos de comunicación apropiados",
+          "Disparadores de escalamiento para consultas complejas que requieren intervención humana",
+          "Secuencias de seguimiento adaptadas a la etapa del viaje del estudiante"
+        ],
+        "results": "Los Resultados:",
+        "resultsItems": [
+          "70% de consultas manejadas automáticamente con alta satisfacción",
+          "Disponibilidad 24/7 en múltiples zonas horarias",
+          "60% más rápido tiempo de respuesta a estudiantes potenciales",
+          "50% de reducción en la carga de trabajo de comunicación administrativa"
+        ],
+        "learn": "Lo Que Aprenderás:",
+        "learnText": "Cómo automatizar la comunicación con clientes manteniendo la sensibilidad cultural y el toque personal."
+      },
+      "case3": {
+        "title": "Motor de Personalización de Currículo",
+        "challenge": "El Desafío:",
+        "challengeText": "Crear rutas de aprendizaje individualizadas para estudiantes con diversos antecedentes, objetivos y velocidades de aprendizaje en nuestros programas de español.",
+        "solution": "La Solución de IA:",
+        "solutionItems": [
+          "Análisis de progreso con modelado predictivo para ritmo óptimo",
+          "Adaptación de contenido basada en preferencias de aprendizaje cultural",
+          "Ajuste automático de dificultad con monitoreo de participación",
+          "Recomendaciones de intervención para estudiantes con dificultades"
+        ],
+        "results": "Los Resultados:",
+        "resultsItems": [
+          "40% de aumento en la retención estudiantil",
+          "30% de mejora en las evaluaciones de resultados de aprendizaje",
+          "2 horas diarias ahorradas en personalización de lecciones individuales",
+          "Mayores puntajes de satisfacción en todos los niveles de competencia"
+        ],
+        "learn": "Lo Que Aprenderás:",
+        "learnText": "Cómo crear sistemas de aprendizaje adaptativos que respondan a las necesidades individuales de los estudiantes y patrones de progreso."
+      }
+    },
+    "hospitalityOperations": {
+      "title": "REVOLUCIÓN DE OPERACIONES DE HOSTELERÍA",
+      "subtitle": "FU Café - Gestión Inteligente de Restaurantes",
+      "case4": {
+        "title": "Sistema de Gestión de Inventario con IA",
+        "challenge": "El Desafío:",
+        "challengeText": "Equilibrar la disponibilidad de ingredientes frescos con desperdicio mínimo en un café que atiende flujos impredecibles de clientes turísticos y locales.",
+        "solution": "La Solución de IA:",
+        "solutionItems": [
+          "Pronóstico de demanda basado en el clima integrado con calendarios de eventos locales",
+          "Seguimiento de inventario en tiempo real con disparadores automáticos de reorden",
+          "Optimización de menú basada en disponibilidad de ingredientes y rentabilidad",
+          "Análisis de patrones de desperdicio con recomendaciones de prevención"
+        ],
+        "results": "Los Resultados:",
+        "resultsItems": [
+          "60% de reducción en desperdicio de alimentos",
+          "25% de mejora en márgenes de beneficio",
+          "4 horas semanales ahorradas en gestión de inventario",
+          "Mejor disponibilidad de menú durante períodos pico"
+        ],
+        "learn": "Lo Que Aprenderás:",
+        "learnText": "Cómo construir sistemas predictivos que optimicen la asignación de recursos y reduzcan el desperdicio operativo."
+      }
+    },
+    "minifu": {
+      "subtitle": "miniFU - Resolución de Conflictos de Reservas",
+      "case5": {
+        "title": "Algoritmo de Programación Inteligente",
+        "challenge": "El Desafío:",
+        "challengeText": "Gestionar reservas de fiestas de cumpleaños, sesiones regulares de patio de juegos y eventos especiales en espacios compartidos con conflictos frecuentes y quejas de clientes.",
+        "solution": "La Solución de IA:",
+        "solutionItems": [
+          "Programación multi-recurso con prevención de conflictos",
+          "Aprendizaje de preferencias del cliente y sugerencias automáticas",
+          "Optimización de capacidad con maximización de ingresos",
+          "Comunicación automatizada para confirmaciones y cambios de reserva"
+        ],
+        "results": "Los Resultados:",
+        "resultsItems": [
+          "80% de reducción en conflictos de reservas",
+          "95% de satisfacción del cliente para reservas de fiestas",
+          "3 horas diarias ahorradas en gestión de programación",
+          "30% de aumento en eficiencia y ingresos de reservas"
+        ],
+        "learn": "Lo Que Aprenderás:",
+        "learnText": "Cómo crear sistemas de programación inteligentes que prevengan conflictos mientras optimizan la utilización de recursos."
+      },
+      "case6": {
+        "title": "Personalización de Experiencia del Cliente",
+        "challenge": "El Desafío:",
+        "challengeText": "Proporcionar servicio consistente y personalizado en diferentes tipos de clientes (familias, fiestas de cumpleaños, visitantes regulares) con personal limitado.",
+        "solution": "La Solución de IA:",
+        "solutionItems": [
+          "Análisis de historial del cliente con seguimiento de preferencias",
+          "Gestión automatizada de programa de lealtad con recompensas personalizadas",
+          "Motor de recomendación de servicios basado en visitas pasadas",
+          "Sistema de notificación al personal para reconocimiento de clientes VIP"
+        ],
+        "results": "Los Resultados:",
+        "resultsItems": [
+          "85% de aumento en visitas repetidas de clientes",
+          "40% de mejora en gasto promedio por visita",
+          "Eficiencia del personal aumentada a través de insights automatizados del cliente",
+          "Reducción de quejas a través de personalización proactiva del servicio"
+        ],
+        "learn": "Lo Que Aprenderás:",
+        "learnText": "Cómo aprovechar los datos del cliente para la entrega de servicios personalizados sin abrumar a tu equipo."
+      }
+    },
+    "careerServices": {
+      "title": "INNOVACIÓN DE SERVICIOS PROFESIONALES",
+      "subtitle": "Career Bridge Europe - Colocación Internacional",
+      "case7": {
+        "title": "Algoritmo de Emparejamiento Estudiante-Oportunidad",
+        "challenge": "El Desafío:",
+        "challengeText": "Emparejar estudiantes internacionales con pasantías y oportunidades laborales apropiadas en mercados europeos con diferentes requisitos y contextos culturales.",
+        "solution": "La Solución de IA:",
+        "solutionItems": [
+          "Evaluación de habilidades con análisis de brechas y recomendaciones de desarrollo",
+          "Evaluación de ajuste cultural para colocaciones internacionales",
+          "Emparejamiento de requisitos del empleador con puntuación de probabilidad de éxito",
+          "Seguimiento del progreso con optimización de ruta profesional"
+        ],
+        "results": "Los Resultados:",
+        "resultsItems": [
+          "95% de tasa de satisfacción en más de 2,000 colocaciones estudiantiles",
+          "75% de reducción en colocaciones desajustadas",
+          "5 horas diarias ahorradas en selección manual de candidatos",
+          "90% de tasa de finalización exitosa para programas internacionales"
+        ],
+        "learn": "Lo Que Aprenderás:",
+        "learnText": "Cómo construir sistemas de emparejamiento que consideren múltiples factores complejos para resultados óptimos."
+      },
+      "case8": {
+        "title": "Sistema de Apoyo para Adaptación Cultural",
+        "challenge": "El Desafío:",
+        "challengeText": "Ayudar a estudiantes internacionales a adaptarse a diferentes culturas laborales europeas mientras mantienen sus fortalezas y perspectivas únicas.",
+        "solution": "La Solución de IA:",
+        "solutionItems": [
+          "Análisis de contexto cultural con recomendaciones de adaptación",
+          "Soporte de integración personalizado basado en antecedentes y destino",
+          "Monitoreo del progreso con disparadores de intervención para adaptaciones con dificultades",
+          "Análisis de patrones de éxito para mejora continua"
+        ],
+        "results": "Los Resultados:",
+        "resultsItems": [
+          "60% de reducción en abandono temprano del programa",
+          "80% de mejora en el éxito de adaptación cultural",
+          "Soporte escalable en múltiples destinos europeos",
+          "Mayor satisfacción del empleador con candidatos internacionales"
+        ],
+        "learn": "Lo Que Aprenderás:",
+        "learnText": "Cómo crear sistemas de apoyo que ayuden a las personas a navegar transiciones culturales y profesionales complejas."
+      }
+    },
+    "travelAccommodation": {
+      "title": "OPTIMIZACIÓN DE VIAJES Y ALOJAMIENTO",
+      "subtitle": "Hostel Campus & Canary Campus Travels",
+      "case9": {
+        "title": "Optimización de Experiencia del Huésped",
+        "challenge": "El Desafío:",
+        "challengeText": "Proporcionar experiencias de alojamiento y viaje personalizadas para diversos huéspedes internacionales con preferencias y presupuestos variables.",
+        "solution": "La Solución de IA:",
+        "solutionItems": [
+          "Análisis de preferencias del huésped con recomendaciones personalizadas",
+          "Optimización de precios dinámicos basada en demanda y ocupación",
+          "Curación de experiencias basada en perfiles de huéspedes y oportunidades locales",
+          "Comunicación automatizada con sensibilidad cultural"
+        ],
+        "results": "Los Resultados:",
+        "resultsItems": [
+          "90% de satisfacción del huésped en servicios de alojamiento",
+          "35% de aumento en ingresos a través de precios optimizados",
+          "4 horas diarias ahorradas en coordinación de servicios al huésped",
+          "Mayores tasas de reserva repetida a través de experiencias personalizadas"
+        ],
+        "learn": "Lo Que Aprenderás:",
+        "learnText": "Cómo crear experiencias de huésped personalizadas que escalen en diferentes niveles de servicio y contextos culturales."
+      }
+    },
+    "integratedOperations": {
+      "title": "GESTIÓN DE OPERACIONES INTEGRADAS",
+      "subtitle": "Coordinación de IA Multi-Empresa",
+      "case10": {
+        "title": "Optimización de Recursos Multi-Empresa",
+        "challenge": "El Desafío:",
+        "challengeText": "Coordinar personal, recursos y operaciones en más de 9 marcas con diferentes períodos pico, requisitos y bases de clientes.",
+        "solution": "La Solución de IA:",
+        "solutionItems": [
+          "Optimización de programación multi-empresa con prevención de conflictos",
+          "Algoritmos de asignación de recursos considerando todas las necesidades empresariales",
+          "Análisis de rendimiento en todo el ecosistema empresarial",
+          "Planificación predictiva para variaciones estacionales y eventos especiales"
+        ],
+        "results": "Los Resultados:",
+        "resultsItems": [
+          "90% de reducción en conflictos de programación multi-empresa",
+          "25% de mejora en eficiencia operativa general",
+          "300% de crecimiento empresarial sin aumentos proporcionales de personal",
+          "Gestión unificada de operaciones multi-empresa complejas"
+        ],
+        "learn": "Lo Que Aprenderás:",
+        "learnText": "Cómo crear sistemas integrados que optimicen recursos en múltiples empresas o departamentos relacionados."
+      }
+    },
+    "implementationInsights": {
+      "title": "INSIGHTS DE IMPLEMENTACIÓN",
+      "subtitle": "Lo Que Hace Exitosas Estas Implementaciones",
+      "insight1": {
+        "title": "Enfoque Empresarial Primero",
+        "description": "Cada implementación de IA comenzó con un problema empresarial claro y criterios de éxito medibles. La tecnología sirvió a las necesidades empresariales, no al revés."
+      },
+      "insight2": {
+        "title": "Fundación de Cumplimiento Europeo",
+        "description": "Priorizamos el cumplimiento con las regulaciones europeas, asegurando que nuestros programas educativos de IA cumplan con los más altos estándares de protección de datos y prácticas éticas de IA."
+      },
+      "insight3": {
+        "title": "Colaboración Humano-IA",
+        "description": "Nuestro enfoque integra insights humanos con capacidades de IA, fomentando mejores decisiones y resultados de aprendizaje más efectivos para educadores y profesionales."
+      },
+      "insight4": {
+        "title": "Optimización Continua",
+        "description": "Optimizamos continuamente nuestros cursos de IA y servicios de consultoría, asegurando que permanezcan a la vanguardia y alineados con las necesidades en evolución del sector educativo."
+      },
+      "insight5": {
+        "title": "Privacidad por Diseño",
+        "description": "Estamos comprometidos con la privacidad por diseño, asegurando que la protección de datos sea un principio central en todos nuestros programas educativos de IA y servicios de consultoría desde el principio."
+      }
+    },
+    "courseApplications": {
+      "title": "Aplicaciones del Curso",
+      "subtitle": "Aprende estas estrategias",
+      "forProfessionals": {
+        "title": "Para Profesionales Europeos",
+        "description": "Estos casos de estudio proporcionan la base para nuestro Curso de Mentalidad IA-Primero para Profesionales Europeos. Aprenderás el pensamiento estratégico y los marcos de implementación detrás de estos éxitos.",
+        "button": "Saber Más Sobre el Curso Profesional"
+      },
+      "forEducators": {
+        "title": "Para Educadores",
+        "description": "Las implementaciones educativas muestran lo que es posible en nuestro Curso de Mentalidad IA-Primero para Educadores. Vea cómo la IA puede transformar la práctica docente y los resultados estudiantiles.",
+        "button": "Saber Más Sobre el Curso para Educadores"
+      }
+    },
+    "implementationMethodology": {
+      "title": "METODOLOGÍA DE IMPLEMENTACIÓN",
+      "subtitle": "Cómo Abordamos los Proyectos de IA",
+      "phase1": {
+        "title": "Fase 1: Definición del Problema (Semana 1)",
+        "items": [
+          "Análisis de procesos empresariales e identificación de puntos de dolor",
+          "Definición de criterios de éxito con resultados medibles",
+          "Alineación de partes interesadas y planificación de gestión del cambio",
+          "Evaluación de viabilidad técnica con revisión de cumplimiento"
+        ]
+      },
+      "phase2": {
+        "title": "Fase 2: Diseño de Solución (Semanas 2-3)",
+        "items": [
+          "Desarrollo de estrategia de IA con integración de cumplimiento europeo",
+          "Diseño de arquitectura del sistema con principios de privacidad por diseño",
+          "Planificación de experiencia de usuario con consideraciones culturales",
+          "Establecimiento de marco de pruebas con métricas de éxito"
+        ]
+      },
+      "phase3": {
+        "title": "Fase 3: Implementación (Semanas 4-8)",
+        "items": [
+          "Lanzamiento por fases con monitoreo continuo",
+          "Capacitación del personal y soporte de gestión del cambio",
+          "Optimización y ajuste del rendimiento",
+          "Integración con sistemas empresariales existentes"
+        ]
+      },
+      "phase4": {
+        "title": "Fase 4: Optimización (Continuo)",
+        "items": [
+          "Análisis de rendimiento y recomendaciones de mejora",
+          "Integración de retroalimentación del usuario y refinamiento del sistema",
+          "Identificación de oportunidades de escalamiento",
+          "Monitoreo continuo de cumplimiento y actualizaciones"
+        ]
+      }
+    },
+    "resultsSummary": {
+      "title": "RESUMEN DE RESULTADOS",
+      "subtitle": "Impacto Empresarial Cuantificado en Todas las Implementaciones",
+      "timeSavings": {
+        "title": "Ahorro de Tiempo",
+        "items": [
+          "20+ horas semanales ahorradas en tareas de gestión personal",
+          "15+ horas diarias ahorradas en todas las operaciones empresariales",
+          "300% de mejora en eficiencia en tareas administrativas",
+          "50% más rápido tiempos de respuesta al servicio al cliente"
+        ]
+      },
+      "financialImpact": {
+        "title": "Impacto Financiero",
+        "items": [
+          "25% de mejora promedio en margen de beneficio en operaciones de hostelería",
+          "35% de aumento en ingresos a través de precios y experiencias optimizados",
+          "60% de reducción de costos en desperdicio e ineficiencias operativas",
+          "ROI logrado dentro de 3–6 meses para todas las implementaciones principales"
+        ]
+      },
+      "qualityImprovements": {
+        "title": "Mejoras de Calidad",
+        "items": [
+          "95% de satisfacción del cliente mantenida en todos los servicios",
+          "90% de tasa de éxito para algoritmos complejos de emparejamiento y colocación",
+          "80% de reducción en conflictos y errores operativos",
+          "Resultados mejorados para estudiantes, huéspedes y operaciones empresariales"
+        ]
+      },
+      "scalabilityAchievements": {
+        "title": "Logros de Escalabilidad",
+        "items": [
+          "300% de crecimiento empresarial sin aumentos proporcionales de personal",
+          "Expansión a múltiples mercados habilitada a través de eficiencia de IA",
+          "Operaciones sostenibles en más de 9 marcas empresariales diversas",
+          "Marcos replicables adaptables a diferentes industrias"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Aprende Nuestra Metodología Probada",
+      "subtitle": "¿Quieres implementar soluciones similares?",
+      "throughCourses": {
+        "title": "A Través de Nuestros Cursos",
+        "description": "Domina el pensamiento estratégico y las habilidades de implementación práctica detrás de estos éxitos.",
+        "button": "Ver Todos los Cursos"
+      },
+      "throughConsultation": {
+        "title": "A Través de Consultoría",
+        "description": "Trabaja directamente con Frank para adaptar estas estrategias a tu contexto empresarial específico.",
+        "button": "Formulario de Consulta"
+      },
+      "throughResources": {
+        "title": "A Través de Nuestros Recursos",
+        "description": "Accede a marcos, plantillas y guías de implementación basadas en estos proyectos reales.",
+        "button": "Descargar Guía de Implementación"
+      }
+    }
   }
 }
 
